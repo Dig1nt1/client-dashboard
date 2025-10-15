@@ -1,0 +1,26 @@
+{
+  "totalInvested": 150000,
+  "currentValue": 158000,
+  "dailyPL": 1200,
+  "overallReturn": 5.3,
+  "holdings": [
+    {
+      "asset": "NIFTY OCT 24000 CE",
+      "qty": 1,
+      "avgBuy": 180,
+      "current": 210,
+      "invested": 9000,
+      "value": 10500,
+      "pl": 1500
+    },
+    {
+      "asset": "GOLD NOV FUT",
+      "qty": 1,
+      "avgBuy": 72000,
+      "current": 71500,
+      "invested": 72000,
+      "value": 71500,
+      "pl": -500
+    }
+  ]
+}

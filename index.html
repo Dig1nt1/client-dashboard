@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAWM Client Portfolio Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CAWM Portfolio Dashboard</h1>
+    <select id="clientSelect">
+      <option value="">Select Client</option>
+    </select>
+  </header>
+
+  <section id="summary">
+    <div class="card">
+      <h3>Total Invested</h3>
+      <p id="totalInvested">₹0</p>
+    </div>
+    <div class="card">
+      <h3>Current Value</h3>
+      <p id="currentValue">₹0</p>
+    </div>
+    <div class="card">
+      <h3>Daily P/L</h3>
+      <p id="dailyPL">₹0</p>
+    </div>
+    <div class="card">
+      <h3>Overall Return</h3>
+      <p id="overallReturn">0%</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Holdings</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Asset</th>
+          <th>Quantity</th>
+          <th>Avg Buy</th>
+          <th>Current</th>
+          <th>Invested</th>
+          <th>Current Value</th>
+          <th>P/L</th>
+        </tr>
+      </thead>
+      <tbody id="portfolioTable"></tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

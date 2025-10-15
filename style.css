@@ -1,0 +1,117 @@
+/* General Reset & Font */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #1f2937;
+}
+
+/* Summary Cards */
+#summary {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  flex: 1 1 220px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.card h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+/* Portfolio Table */
+#portfolio {
+  width: 95%;
+  margin: 2rem auto;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+#portfolio h2 {
+  margin: 0;
+  padding: 1.5rem 2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+th {
+  background: #f9fafb;
+  color: #374151;
+  font-weight: 500;
+}
+
+tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+td {
+  color: #1f2937;
+}
+
+/* Highlight P/L */
+td:last-child {
+  font-weight: 600;
+}
+
+td:last-child.positive {
+  color: #16a34a; /* green */
+}
+
+td:last-child.negative {
+  color: #dc2626; /* red */
+}
