@@ -1,26 +1,27 @@
 {
-  "totalInvested": 150000,
-  "currentValue": 158000,
-  "dailyPL": 1200,
-  "overallReturn": 5.3,
+  "totalInvested": 103600,
+  "currentValue": 99000,
+  "dailyPL": -4093,
+  "overallReturn": -4.44,
   "holdings": [
     {
-      "asset": "NIFTY OCT 24000 CE",
-      "qty": 1,
-      "avgBuy": 180,
-      "current": 210,
-      "invested": 9000,
-      "value": 10500,
-      "pl": 1500
+      "asset": "NIFTY 20TH OCT 25100 PE",
+      "qty": 75,
+      "avgBuy": 99,
+      "current": 45.40,
+      "invested": 7425,
+      "value": 7425,
+      "pl": -4074
     },
     {
-      "asset": "GOLD NOV FUT",
-      "qty": 1,
-      "avgBuy": 72000,
-      "current": 71500,
-      "invested": 72000,
-      "value": 71500,
-      "pl": -500
+      "asset": "LG INDIA",
+      "qty": 13,
+      "avgBuy": 1140,
+      "current": 1688,
+      "invested": 14820,
+      "value": 21944,
+      "pl": 7124
     }
   ]
 }
+
